@@ -2,7 +2,13 @@ import { Resend } from "resend";
 import type { Order } from "./orders";
 import { generateDownloadToken } from "./orders";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+let _resend: Resend | null = null;
+function getResend(): Resend {
+  if (!_resend) {
+    _resend = new Resend(process.env.RESEND_API_KEY);
+  }
+  return _resend;
+}
 
 export async function sendOrderConfirmation(order: Order, baseUrl: string) {
   const itemsHtml = order.items
@@ -65,7 +71,7 @@ export async function sendOrderConfirmation(order: Order, baseUrl: string) {
     </div>
   `;
 
-  await resend.emails.send({
+  await getResend().emails.send({
     from: "Theaterstücke Online <bestellung@theaterstuecke-online.de>",
     to: order.email,
     subject: `Ihre Bestellung bei Theaterstücke Online`,
