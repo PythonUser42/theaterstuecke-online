@@ -5,11 +5,13 @@ import { useCart } from "@/lib/cart";
 import Link from "next/link";
 
 export default function KassePage() {
-  const { items, total, clearCart } = useCart();
+  const { items, total, hydrated, clearCart } = useCart();
   const [status, setStatus] = useState<"loading" | "redirecting" | "error">("loading");
   const [errorMsg, setErrorMsg] = useState("");
 
   useEffect(() => {
+    if (!hydrated) return;
+
     if (items.length === 0) {
       setStatus("error");
       setErrorMsg("Ihr Warenkorb ist leer.");
@@ -44,7 +46,7 @@ export default function KassePage() {
         setStatus("error");
         setErrorMsg(err.message);
       });
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [hydrated]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <main className="bg-[#ffcc00] px-4 py-6 md:px-5 md:py-10">
