@@ -1,0 +1,356 @@
+{
+  "ageGroups": [
+    {
+      "slug": "9-13-jahre",
+      "name": "9-13 Jahre"
+    },
+    {
+      "slug": "erwachsene",
+      "name": "Erwachsene"
+    },
+    {
+      "slug": "grundschule",
+      "name": "Grundschule"
+    },
+    {
+      "slug": "jugendliche",
+      "name": "Jugendliche"
+    },
+    {
+      "slug": "kita",
+      "name": "Kita"
+    }
+  ],
+  "themes": [
+    {
+      "slug": "ttk-abschied-von-der-kita",
+      "name": "Abschied von der Kita",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-interkulturelle-stuecke",
+      "name": "Interkulturelle Stücke",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-brueder-grimm",
+      "name": "Märchen der Brüder Grimm",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-monstergeschichten",
+      "name": "Monster & Gespenster",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-neue-maerchen",
+      "name": "Neue Märchen",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-ostern",
+      "name": "Ostern",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-stuecke-mit-erzaehlerin",
+      "name": "Stücke mit Erzähler*in",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttk-kurze-weihnachtsstuecke",
+      "name": "Weihnachtsstücke",
+      "ageGroup": "Kita"
+    },
+    {
+      "slug": "ttg-aktuelle-themen",
+      "name": "Aktuelle Themen",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-brueder-grimm",
+      "name": "Brüder Grimm",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-einschulung",
+      "name": "Einschulung",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-interkulturelle-stuecke",
+      "name": "Interkulturelle Stücke",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-krimi-detektive-geister-spannendes",
+      "name": "Krimi, Detektive, Geister",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-lustig-skurril-comedy",
+      "name": "Lustig, skurril, Comedy",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-maerchen-fuer-toleranz",
+      "name": "Märchen für Toleranz",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-monstergeschichten",
+      "name": "Monster & Gespenster",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-mut-mobbing",
+      "name": "Mut & Mobbing",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-neue-maerchen",
+      "name": "Neue & witzige Märchen",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-ostern",
+      "name": "Ostern",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-sketche",
+      "name": "Sketche",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-kurze-weihnachtsstuecke",
+      "name": "Weihnachtsstücke",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg_witziger_maerchenmix",
+      "name": "Witziger Märchenmix",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttg-zirkustheater-grundschule-tt",
+      "name": "Zirkustheater",
+      "ageGroup": "Grundschule"
+    },
+    {
+      "slug": "ttw-aktuelle-themen",
+      "name": "Aktuelle Themen",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-brueder-grimm",
+      "name": "Brüder Grimm",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-interkulturelle-stuecke",
+      "name": "Interkulturelle Stücke",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-komoedien",
+      "name": "Komödien & Einakter",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-krimi-detektive-geister-spannendes",
+      "name": "Krimi, Detektive, Geister",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-lustig-skurril-comedy",
+      "name": "Lustig, skurril, Comedy",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-maerchen-fuer-toleranz",
+      "name": "Märchen für Toleranz",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-mut-mobbing",
+      "name": "Mut & Mobbing",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-neue-maerchen",
+      "name": "Neue & witzige Märchen",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-sketche",
+      "name": "Sketche",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw_witziger_maerchenmix",
+      "name": "Witziger Märchenmix",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-kurze-weihnachtsstuecke",
+      "name": "Weihnachtsstücke",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-zeitreise",
+      "name": "Zeitreise",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttw-zirkustheater",
+      "name": "Zirkustheater",
+      "ageGroup": "9-13 Jahre"
+    },
+    {
+      "slug": "ttj-aktuelle-themen",
+      "name": "Aktuelle Themen",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-brueder-grimm",
+      "name": "Brüder Grimm",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-interkulturelle-stuecke",
+      "name": "Interkulturelle Stücke",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-komoedien",
+      "name": "Komödien & Einakter",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-krimi-detektive-geister-spannendes",
+      "name": "Krimi, Detektive, Geister",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-lustig-skurril-comedy",
+      "name": "Lustig, skurril, Comedy",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-maerchen-fuer-toleranz",
+      "name": "Märchen für Toleranz",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-mut-mobbing",
+      "name": "Mut & Mobbing",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-neue-maerchen",
+      "name": "Neue & witzige Märchen",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-sketche",
+      "name": "Sketche",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-kurze-weihnachtsstuecke",
+      "name": "Weihnachtsstücke",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj_witziger_maerchenmix",
+      "name": "Witziger Märchenmix",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-zeitreise",
+      "name": "Zeitreise",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "ttj-zirkustheater",
+      "name": "Zirkustheater",
+      "ageGroup": "Jugendliche"
+    },
+    {
+      "slug": "tte-lustig-skurril-comedy",
+      "name": "Lustig, skurril, Comedy",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-aktuelle-themen",
+      "name": "Aktuelle Themen",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-brueder-grimm",
+      "name": "Brüder Grimm",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-interkulturelle-stuecke",
+      "name": "Interkulturelle Stücke",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-komoedien",
+      "name": "Komödien & Einakter",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-krimi-detektive-geister-spannendes",
+      "name": "Krimi, Detektive, Geister",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-maerchen-fuer-toleranz",
+      "name": "Märchen für Toleranz",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "monster-gespenster",
+      "name": "Monster & Gespenster",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-mut-mobbing-erwachsene-tt",
+      "name": "Mut & Mobbing",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-neue-maerchen",
+      "name": "Neue & witzige Märchen",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-ostern",
+      "name": "Ostern",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-sketche",
+      "name": "Sketche",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-kurze-weihnachtsstuecke",
+      "name": "Weihnachtsstücke",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte_witziger_maerchenmix",
+      "name": "Witziger Märchenmix",
+      "ageGroup": "Erwachsene"
+    },
+    {
+      "slug": "tte-zirkus-theater",
+      "name": "Zirkus-Theater",
+      "ageGroup": "Erwachsene"
+    }
+  ]
+}
