@@ -3,6 +3,8 @@ import { getStripe } from "@/lib/stripe";
 import { saveOrder, type OrderItem } from "@/lib/orders";
 import { sendOrderConfirmation } from "@/lib/email";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: NextRequest) {
   const body = await req.text();
   const sig = req.headers.get("stripe-signature");
