@@ -90,8 +90,8 @@ export async function createCheckoutSession(
     locale: "de",
     line_items: lineItems,
     metadata,
-    success_url: `${baseUrl}/danke-bestellung?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${baseUrl}/warenkorb`,
+    success_url: `${baseUrl.trim()}/danke-bestellung?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${baseUrl.trim()}/warenkorb`,
   });
 
   return session.url!;
